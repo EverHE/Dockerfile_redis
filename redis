@@ -1,3 +1,5 @@
 FROM redis
 
 MAINTAINER ever he <heleiever@hotmail.com>
+
+ENTRYPOINT ["date"]
