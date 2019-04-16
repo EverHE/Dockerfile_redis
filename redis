@@ -1,3 +1,4 @@
 FROM redis
+EXPOSE 21212
 
 MAINTAINER ever he <heleiever@hotmail.com>
