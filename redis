@@ -1,4 +1,4 @@
 FROM redis
-EXPOSE 21212
+VOLUME /docker/aa/xx /tmp
 
 MAINTAINER ever he <heleiever@hotmail.com>
