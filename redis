@@ -1,4 +1,5 @@
 FROM redis
-VOLUME /docker/aa/xx /tmp
 
-MAINTAINER ever he <heleiever@hotmail.com>
+MAINTAINER everhe <heleiever@hotmail.com>
+
+ENTRYPOINT ["/bin/sh", "-c"]
